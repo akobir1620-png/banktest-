@@ -17,7 +17,6 @@ class Handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.end_headers()
         self.wfile.write(b"Bot ishlayapti!")
-
     def log_message(self, *args):
         pass
 
